@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    height: 100vh;
+    background-color: #3399CC;
+    border: solid 25px #2B81AC;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    color: #FFFFFF;
+}
+
+.container {
+    width: 50vw;
+    margin: auto;
+}
+
+.header {
+    margin-top: 5px;
+    margin-bottom: 30px;
+    color: #FFFFFF;
+}
+
+h1 {
+    display: inline-block;
+    padding-right: 10px;
+    font-size: 35px;
+}
+
+.wi-sunrise {
+    font-size: 35px;
+}
+
+.content {
+    background-color: #FFFFFF;
+}
+
+.forecast {
+    font-size: 0;
+    border-style: solid;
+    border-color: #FFFFFF;
+    border-width: 4px 0 0 4px;
+}
+
+.forecast__item {
+    display: inline-block;
+    width: 25%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 20px;
+    text-align: center;
+    border-style: solid;
+    border-color: #FFFFFF;
+    border-width: 0 4px 4px 0;
+}
+
+.forecast__item_100 {
+    width: 100%;
+}
+
+.forecast__item_50 {
+    width: 50%;
+}
+
+.forecast__item_blue {
+    background-color: #3399CC;
+}
+
+.forecast__item_blue {
+    background-color: #3399CC;
+}
+
+.forecast__item_aquamarine {
+    background-color: #33CCCC;
+}
+
+.forecast__item_plum {
+    background-color: #996699;
+}
+
+.forecast__item_red {
+    background-color: #C24747;
+}
+
+.forecast__item_orange {
+    background-color: #E2674A;
+}
+
+.forecast__item_yellow {
+    background-color: #FFCC66;
+}
+
+.forecast__item_sea-green {
+    background-color: #99CC99;
+}
+
+.forecast__item_cadet-blue {
+    background-color: #669999;
+}
+
+.forecast__item_pink {
+    background-color: #CC6699;
+}
+
+.forecast__item_green {
+    background-color: #339966;
+}
+
+.forecast__item_purple {
+    background-color: #666699;
+}
+
+.forecast__value {
+    display: block;
+    padding-top: 10px;
+}
+
+.footer {
+    margin-top:40px
+}
